@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background-color: beige;
+}
+.farg{
+    color: white;
+}
+.knapp{
+    background-color: rgb(235, 248, 233);
+    color: rgb(10, 138, 29);
+}
+.bildsize{
+    height: 700px;
+    width: 1440px;
+}
+.innehall{
+    margin: 50px;
+}
+.dark_f{
+    clear: both;
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+}
+.d-block{ /*ändra alldrig annars få man konstiga bieffekter*/
+    height: 450px;
+}
+.fp{
+    clear: both;
+    background-color: white;
+}
+table{
+  margin: 20px auto;
+  max-width: 520px;
+}
+.col-12.d-flex,
+.col-md-6.d-flex,
+.col-lg-3.d-flex{
+    justify-content: center;
+}
+h3{
+    text-align: center;
+}
+.bild{
+    border: 10px solid green;
+    max-width: 520px;
+    width: 100%;
+    height: auto;        
+    object-fit: cover;
+}
+
+.site-footer{
+  background-color: green;
+  color: white;
+  margin-top: 15px;
+}
+
+.site-footer p{
+  margin: 0;
+  line-height: 1.4;
+}
+.pf_text{
+    text-align: center;
+}
+.other_farg{
+    background-color: rgb(83, 164, 98);
+}
+/* Accordion header – stängd */
+.accordion-button{
+  background-color: rgb(99, 176, 99);  /* grön */
+  color: white;
+}
+
+/* Accordion header – öppen */
+.accordion-button:not(.collapsed){
+  background-color: rgb(60, 140, 80);  /* mörkare grön */
+  color: white;
+}
+.accordion{
+    margin-bottom: 30px;
+}
+/*.mrg{
+    padding-bottom: 25px;
+}*/
+.lft{
+    color:rgb(10, 138, 29);
+    margin-left: 40px;
+}
